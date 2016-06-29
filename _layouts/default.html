@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+	        		<li><a href="/sections/projects/index.html">Projects</a></li>
+		        	<li><a href="/sections/members/index.html">Members</a></li>
+	        		<li><a href="/sections/publications">Publications</a></li>
+	        		<li><a href="/sections/blog/index.html">Blog</a></li>
+	        		<li><a href="/sections/software/index.html">Software</a></li>
+	        		<li><a href="/sections/conferences/index.html">Conferences</a></li>
+	        		<!-- <li><a href="/sections/contact">Contacts</a></li> -->
+	    		</ul>
+			</nav>
+			
+			<div class="container">
+			
+			{{ content | markdownify }}
+			
+			</div><!-- /.container -->
+			<footer>
+			<!--
+				<ul>
+				<li> <img src="../static/img/CNCS.png" height="80px">
+				<li> <img src="../static/img/horizon2020.jpg" height="80px">
+				<li> <img src="../static/img/CIMH_Logo_klein.jpg" height="80px">
+				</ul>
+			-->
+	    		<ul>
+	        		<li><a href="mailto:carlo.nicolini@iit.it">email</a></li>
+	        		<li><a href="https://twitter.com/">twitter</a></li>
+	        		<li><a href="http://http://brainetlab.github.io/blog/atom.xml">rss feed</a></li>
+	        		<li><a href="https://github.com/brainetlab">github.com/brainetlab</a></li>
+				</ul>
+
+			</footer>
+		</body>
+	</html>

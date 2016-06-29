@@ -1,0 +1,11 @@
+# THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
+#
+#
+- citation: 'Nicolini C., Bifone A. Modular structure of brain functional connectivity: breaking the resolution limit by Surprise, *Scientific Reports* 2016'
+  date: 20160214
+  image: '/static/img/pub/srep19250_rsnet.jpeg'
+  pdf: '/static/pdf/srep19250.pdf'
+  pmid: 26763931
+  links:
+    - name: 'Modular structure of brain functional connectivity: breaking the resolution limit by Surprise'
+      url: 'http://www.nature.com/articles/srep19250'

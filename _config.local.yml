@@ -1,0 +1,13 @@
+name: "BrainetLab, IIT@UniTN"
+description: "This is the official web page for BrainetLab."
+
+url: "http://brainetlab.github.io"
+
+gems: [jekyll-paginate]
+paginate_path: "news/page:num"
+
+highlighter: coderay
+permalink: pretty
+markdown: kramdown
+kramdown: 
+  parse_block_html: true

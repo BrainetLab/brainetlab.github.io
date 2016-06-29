@@ -1,0 +1,17 @@
+- name: 'Pattern Recognition in Neuroimaging'
+  title: 'Modular organization of brain connectivity networks beyond the resolution limit'
+  location: 'Trento, Italy'
+  date: 'June, 20-24, 2016'
+  description: 'x'
+  posterpic: /static/posters/prni2016_nicolini.png
+  posterpdf: /static/posters/prni2016_nicolini.pdf
+  website: 'http://prni2016.wix.com/prni2016#!'
+
+- name: 'Human Brain Mapping'
+  title: 'Modular organization of functional connectivity in schizophrenia patients beyond the resolution limit'
+  location: 'Geneve, Switzerland'
+  date: 'June, 27-31, 2016'
+  description: 'x'
+  posterpic: /static/posters/hbm2016_bordier.png
+  posterpdf: /static/posters/hbm2016_bordier.pdf
+  website: 'https://www.humanbrainmapping.org/i4a/ams/conference/conference.cfm?conferenceID=102'

@@ -1,0 +1,15 @@
+- name: home
+  link: "/"
+
+- name: publications
+  link: "/publications"
+
+- name: software
+  link: "/software"
+
+- name: members
+  link: "/members"
+
+- name: contact
+  link: "/contact"
+  group: contact

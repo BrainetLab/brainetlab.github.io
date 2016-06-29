@@ -1,0 +1,30 @@
+- name: FAGSO
+  image: /static/img/software/fagso.png
+  description: Fast Agglomerative Surprise Optimization
+  website: github.com/carlonicolini/fagso
+  fulldescription: '
+  FAGSO is an agglomerative Surprise Optimization algorithm written in C++ with bindings as MEX MATLAB and Octave file as well as Python library. It comes as the first proof of concept implementation of the idea, and accompanies the paper *Modular structure of brain functional connectivity: breaking the resolution limit by Surprise*.
+  '
+
+- name: PACO
+  image: /static/img/software/paco.png
+  description: Partitioning Cost Optimization
+  website: github.com/carlonicolini/paco
+  fulldescription: '
+  PACO is the second iteration of the FAGSO algorithm, written from scratch with better data structures implementation as well as the full support of the igraph library.
+  PACO implements agglomerative optimization methods as well as simulated annealing, and its written in a modular fashion so optimization of cost funcitons of various type can be carried on in a series of subsequent steps.
+  '
+
+- name: CommunityAlg
+  image: /static/img/software/community_detection.jpg
+  description: Collections of Matlab functions useful for community detection.
+  website: github.com/carlonicolini/communityalg
+  fulldescription: '
+  CommunityAlg is a set of Matlab functions for the analysis of complex networks and it extends largely the Brain connectivity Toolbox (BCT) by Sporns and Rubinov. CommunityAlg at the moment is a moving target and the implementations of the methods may change in the future as well as their signatures.'
+
+- name: LFRWMX
+  image: /static/img/software/lfr.png
+  description: A Matlab wrapper around the Lancichinetti-Fortunato-Radicchi benchmark network generator
+  website: github.com/carlonicolini/lfrwmx
+  fulldescription: LFR is an implementations of the planted partition model where the degrees and the community size is modeled after powerlaws with specific exponents. This implementation is a Matlab wrapper around the LFR Weighted with non overlapping communities that is available on the website of Santo Fortunato.
+  
