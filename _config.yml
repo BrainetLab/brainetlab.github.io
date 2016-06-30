@@ -6,7 +6,7 @@ url: "http://brainetlab.github.io"
 gems: [jekyll-paginate]
 paginate_path: "news/page:num"
 
-highlighter: coderay
+highlighter: rouge
 permalink: pretty
 markdown: kramdown
 kramdown: 
