@@ -13,13 +13,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   position: PhD Student, Scientific Programmer, Senior Technician, System Administrator
   email: carlo.nicolini@iit.it
   scholar: jnpIfCwAAAAJ
-  linkedin: xxx
   researchgate: Carlo_Nicolini
   description: '
-  Programming languages, software frameworks:
-  C/C++ with emphasis on STL and template-metaprogramming, Boost, Qt4, Qt5, Bash scripting, Python/Cython,  OpenGL, GLSL (OpenGL shaders), Mathematica, MatLab, Psychtoolbox, Bash scripting, NI Labview, LATEX, CMake, Python, Cython, CUDA. Experience in high performance computing.
-Experience as system administrator of Dell server clusters.
-Vast knowledge of algorithms and data structures and numeric linear algebra as well as numerical analysis with their related problems in general. Interested in physical simulations of complex systems. Experience in volumetric data visualization and volumetric light field display.
+  Carlo Nicolini obtained his MSc. in Physics in 2008 from University of Trento. He then moved to the computer science department, where he has been research assistant in the field of machine learning and optimization.
+  Since 2010, Carlo joined IIT as scientific programmer and senior technician, where his role was to develop and implement complex psychophysics experiments as well as data analysis pipelines.
+  Additionally, in 2013, he started a PhD with University of Verona about the network analysis of brain functional connectivity, where he applied his experience in graph-theory to neuroscience problems.
 '
 
 - name: Cecile Bordier
@@ -67,6 +65,6 @@ We implemented this property in our two benchmark networks.'
   linkedin: giulia-scuppa-12368389
   researchgate: Giulia_Scuppa
   description: '
-Giulia Scuppa graduated in Pharmaceutical Chemistry and Technology and received her PhD in pharmacology at the University of Camerino. Her doctoral research was mainly focused on unravelling the neurobiological mechanisms underlying drug addiction. She is now working on an in-vivo project to study the impact of chronic alcohol exposure on brain functional connectivity in rodents in order to identify novel therapeutic strategies for the treatment of alcohol dependence. 
+  Giulia Scuppa graduated in Pharmaceutical Chemistry and Technology and received her PhD in pharmacology at the University of Camerino. Her doctoral research was mainly focused on unravelling the neurobiological mechanisms underlying drug addiction. She is now working on an in-vivo project to study the impact of chronic alcohol exposure on brain functional connectivity in rodents in order to identify novel therapeutic strategies for the treatment of alcohol dependence. 
   '
   
