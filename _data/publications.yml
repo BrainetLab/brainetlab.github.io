@@ -1,11 +1,68 @@
-# THE WEIRDEST BUG: using escapes requires single-quotes instead of double...
-#
-#
-- citation: 'Nicolini C., Bifone A. Modular structure of brain functional connectivity: breaking the resolution limit by Surprise, *Scientific Reports* 2016'
-  date: 20160214
+# Structure of yml publications
+
+# MANDATORY ARGUMENTS
+# -title: title of the paper
+# authors: authors name abbreviated
+# journal: if published on a journal, the full name of the journal
+# image: a picture
+# pdf: a link to the pdf, if open access the url of the journal where to download it
+# pmid: pubmed id
+# abstract: the abstract of the paper
+# supplementary: a pdf of the supplementary materials
+# code: if the paper has code, a link to download the code
+
+- title: 'Modular structure of brain functional connectivity: breaking the resolution limit by Surprise'
+  authors: 'Nicolini C., Bifone A.'
+  journal: 'Scientific Reports'
+  volume: '6'
+  pages: '19250'
+  year: '2016'
   image: '/static/img/pub/srep19250_rsnet.jpeg'
   pdf: '/static/pdf/srep19250.pdf'
-  pmid: 26763931
-  links:
-    - name: 'Modular structure of brain functional connectivity: breaking the resolution limit by Surprise'
-      url: 'http://www.nature.com/articles/srep19250'
+  pmid: '26763931'
+  url: 'http://www.nature.com/articles/srep19250'
+  abstract: 'The modular organization of brain networks has been widely investigated using graph theoretical approaches. Recently, it has been demonstrated that graph partitioning methods based on the maximization of global fitness functions, like Newman’s Modularity, suffer from a resolution limit, as they fail to detect modules that are smaller than a scale determined by the size of the entire network. Here we explore the effects of this limitation on the study of brain connectivity networks. We demonstrate that the resolution limit prevents detection of important details of the brain modular structure, thus hampering the ability to appreciate differences between networks and to assess the topological roles of nodes. We show that Surprise, a recently proposed fitness function based on probability theory, does not suffer from these limitations. Surprise maximization in brain co-activation and functional connectivity resting state networks reveals the presence of a rich structure of heterogeneously distributed modules, and differences in networks’ partitions that are undetectable by resolution-limited methods. Moreover, Surprise leads to a more accurate identification of the network’s connector hubs, the elements that integrate the brain modules into a cohesive structure.'
+  code: 'github.com/carlonicolini/fagso'
+  caption: 'First largest eight modules as found by Surprise optimization in resting state human network'
+  ris: 'http://www.nature.com/articles/srep19250.ris'
+
+- title: 'Community detection in weighted brain connectivity networks beyond the resolution limit'
+  authors: 'Nicolini C., Bòrdier C., Bifone A.'
+  journal: 'Neuroimage'
+  year: submitted
+  image: '/static/img/pub/degeneracy.png'
+  preprint: '/static/pdf/NI_YNMIG-S-16-01978.pdf'
+  pdf: '/static/pdf/NI_YNMIG-S-16-01978.pdf'
+  abstract: 'Graph theoretical methods provide a powerful framework to investigate brain connectivity networks and their modular organization. Recently, it has been shown that many graph-based methods suffer from a fundamental resolution limit that may have affected previous studies and prevented detection of modules that are smaller than an intrinsic scale. Optimization of Surprise, a resolution-limit-free function rooted in discrete probability theory,  has revealed a substantially different picture. Indeed, a wide size distribution of modules, or communities, was found in binary networks, thus suggesting that a revision of the current models of the modular organization of brain connectivity may be in order. However, functional connectivity networks are intrinsically weighted, reflecting a continuous distribution of connectivity strengths between different brain regions. Here, we extend Surprise optimization to the study of weighted networks, and validate this new approach in synthetic networks endowed with a ground-truth modular structure. We compare Surprise with leading community detection methods currently in use and show its improved specificity and sensitivity in the detection of small modules even in the presence of noise and inter-subject variability such as those observed in fMRI experiments.
+Finally, we apply our novel approach to functional connectivity networks from resting state fMRI experiments, and demonstrate a heterogeneous modular organization, with a wide distribution of clusters spanning different scales.'
+  code: 'github.com/carlonicolini/paco'
+  caption: 'Degeneracy landscape of Modularity, Surprise and Asymptotical Surprise'
+
+- title: 'Reorganization of the modular structure of brain functional connectivity networks in Schizophrenia patients.'
+  authors: 'Bòrdier C., Nicolini C., Bifone A.'
+  abstract: 'Graph theoretical methods provide a powerful framework to investi-
+gate brain connectivity networks and their modular organization. Recently,
+it has been shown that many graph-based methods suffer from a fun-
+damental resolution limit that may have affected previous studies and
+prevented detection of modules that are smaller than an intrinsic scale.
+Optimization of Surprise, a resolution-limit-free function rooted in discrete
+probability theory, has revealed a substantially different picture. Indeed, a
+wide size distribution of modules, or communities, was found in binary
+networks, thus suggesting that a revision of the current models of the
+modular organization of brain connectivity may be in order. However,
+functional connectivity networks are intrinsically weighted, reflecting a
+continuous distribution of connectivity strengths between different brain
+regions. Here, we extend Surprise optimization to the study of weighted
+networks, and validate this new approach in synthetic networks endowed
+with a ground-truth modular structure. We compare Surprise with leading
+community detection methods currently in use and show its improved
+specificity and sensitivity in the detection of small modules even in the
+presence of noise and inter-subject variability such as those observed in
+fMRI experiments. Finally, we apply our novel approach to functional connectivity networks from resting state fMRI experiments, and demonstrate
+a heterogeneous modular organization, with a wide distribution of clusters
+spanning different scales.'
+  image: ''
+  year: submitted
+  journal: 'Proc.Nat.Acad.Sci.'
+  image: '/static/img/pub/schizo.jpg'
+  caption: 'Map representation of the communities for controls (left) and patients (right). Please note that the color of each community is random even across group.'

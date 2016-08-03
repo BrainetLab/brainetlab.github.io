@@ -1,0 +1,241 @@
+\section{communityalg}\label{communityalg}
+
+Algorithms and functions in Matlab for community detection in networks.
+Expands BrainConnectivity toolbox.
+
+\section{Matlab/Octave algorithms and
+functions}\label{matlaboctave-algorithms-and-functions}
+
+\begin{itemize}[<+->]
+\tightlist
+
+  \subsection*{ami.m} Returns the adjusted mutual information between two
+  membership vectors.
+
+  \subsection*{association\_score.m} Returns the association score between
+  pairs of communities specified by the graph and membership.
+
+  \subsection*{asymptotic\_modularity.m} Compute asymptotic modularity of a
+  graph with respect to a membership vector.
+
+  \subsection*{asymptotic\_modularity\_sum.m} TODO
+
+  \subsection*{asymptotic\_surprise.m} Compute asymptotic surprise of a graph
+  with respect to a membership vector.
+
+  \subsection*{clique.m} Generate an adjacency matrix of a clique graph with
+  \texttt{n} nodes.
+
+  \subsection*{cluster\_similarity.m} Compare two membership vectors.
+
+  \subsection*{clustering\_entropy.m} Compute the clustering entropy of an
+  agreement matrix as in ``Gfeller, Newman, 2006''.
+
+  \subsection*{community\_robustness\_weighted.m} TODO
+
+  \subsection*{community\_size2memb.m} Convert an array where every element
+  is the size of a clique to the correspondig membership vector.
+
+  \subsection*{comm\_mat.m} Returns the block matrix of a graph and its
+  community structure as membership.
+
+  \subsection*{compute\_surprise.m} Compute the surprise given surprise
+  paramenters.
+
+  \subsection*{consensus\_clustering.m} TODO
+
+  \subsection*{consensus\_clustering\_weighted.m} TODO
+
+  \subsection*{consensus\_entropy.m} TODO
+
+  \subsection*{consensus\_robustness.m} TODO
+
+  \subsection*{correlation\_louvain.m} Adaptation of the BCT
+  \texttt{community\_louvain} method for correlation matrices, as
+  described in MacMahon,2015.
+
+  \subsection*{count\_comm.m} Plot the histogram with the community size
+  given a membership vector.
+
+  \subsection*{cycle\_graph.m} Generate the adjacency matrix of a cycle graph
+  with n nodes.
+
+  \subsection*{effcommplot.m} TODO
+
+  \subsection*{generate\_agreement.m} Generate the agreement matrix for a
+  given community detection method.
+
+  \subsection*{generate\_agreement\_weighted.m} Generate the weighted
+  agreement matrix for a given community detection method.
+
+  \subsection*{generate\_connected\_components.m} TODO
+
+  \subsection*{graph\_JS\_similarity.m} Compute the quantum Jensen Shannon
+  divergence between two adjacency matrices.
+
+  \subsection*{graph\_laplacian.m} Compute the graph combinatorial Laplacian
+  matrix \texttt{L=D-A}.
+
+  \subsection*{group2membership.m} Convert a cell of arrays representing the
+  nodes in the communities to a membership vector.
+
+  \subsection*{image\_to\_network.m} Convert a gray index image to its
+  corresponding adjacency graph.
+
+  \subsection*{imagesctxt.m} Show a matrix like \texttt{imagesc} but with
+  text values of elements displayed on the pixels.
+
+  \subsection*{isoctave.m} Returns true if using Octave, false if using
+  Matlab.
+
+  \subsection*{jensen\_shannon\_sim.m} Returns the Jensen-Shannon symmetrized
+  information theoretic distance between two graph Laplacians.
+
+  \subsection*{k\_regular.m} Generate a \texttt{k}-regular graph, a graph
+  where the degree of every vertex is \texttt{k}.
+
+  \subsection*{KL.m} Returns the binary Kullback-Leibler divergence between
+  Bernoulli distribution \texttt{p} and \texttt{q}.
+
+  \subsection*{kullback\_leibler\_sim.m} Returns the Kullback-Leibler
+  divergence between two graph Laplacians.
+
+  \subsection*{logHyperProbability.m} Compute the logarithm of the
+  hypergeometric probability in base 10.
+
+  \subsection*{membership2groups.m} Convert a membership vector to a cell of
+  arrays of nodes in every community.
+
+  \subsection*{membership\_agreement.m} DEPRECATE
+
+  \subsection*{membership\_similarity.m} TODO
+
+  \subsection*{method\_best.m} Functio handle to the community detection
+  method that returns the best value over a set of repetitions.
+
+  \subsection*{modularity.m} Returns the modularity of a graph with respect
+  to a membership vector.
+
+  \subsection*{nearcorr.m} Returns the nearest correlation matrix of a square
+  matrix. Implementation by Nick Higham.
+
+  \subsection*{nearestSPD.m} Returns the positive definite matrix of a square
+  matrix. Implementation by Nick Higham.
+
+  \subsection*{norm\_conf\_mat.m} DEPRECATE
+
+  \subsection*{number\_connected\_components.m} Returns the number of
+  connected components of a graph.
+
+  \subsection*{number\_of\_edges.m} Returns the number of edges of a binary
+  or weighted graph.
+
+  \subsection*{paco.m} Function handle to the MEX implementation of PACO.
+
+  \subsection*{partition\_params.m} Returns the partition parameters for use
+  with \texttt{compute\_surprise}.
+
+  \subsection*{quantum\_density.m} Returns the quantum density of a graph,
+  \texttt{Brauenstein\ et\ al.} ``Ann. of Combinatorics, 10, no 3
+  (2006), 291-317.''
+
+  \subsection*{reindex\_membership.m} Transform a membership vector to have
+  community indices sorted by community size from \texttt{1} to
+  \texttt{\textbar{}C\textbar{}}
+
+  \subsection*{reorder\_membership.m} Linearize a membership vector to have
+  continuous indices of communities from \texttt{1} to
+  \texttt{\textbar{}C\textbar{}}
+
+  \subsection*{ring\_of\_cliques.m} Returns a network ring of cliques, with
+  given number of cliques and clique size and its membership.
+
+  \subsection*{ring\_of\_custom\_cliques.m} Returns a network ring of
+  cliques, with given size of cliques specified as input and its
+  membership.
+
+  \subsection*{rmtdecompose.m} Returns the Random Matrix Theory decomposition
+  of a correlation matrix.
+
+  \subsection*{robustness\_configuration\_interp\_und.m}
+
+  \subsection*{robustness\_edge\_weight\_und.m}
+
+  \subsection*{run\_cluster\_similarity.m}
+
+  \subsection*{rwalkent.m} Returns the random walk entropy of a graph as in
+  \texttt{Estrada\ et\ al.} Walk entropies in graphs, ``Linear Algebra
+  and its Applications 443 (2014) 235--244''
+
+  \subsection*{significance.m} Returns the significance of a graph
+  partitioning, \texttt{Traag\ (2013)}.
+
+  \subsection*{smi.m} Returns the standardized mutual information of two
+  membership vectors.
+
+  \subsection*{sort\_group\_by\_size.m} Sort community groups by size.
+
+  \subsection*{star\_of\_custom\_cliques.m} Returns a star of cliques, every
+  clique is connected to all other cliques with one edge.
+
+  \subsection*{surprise.m} Returns the surprise of a graph partitioning.
+
+  \subsection*{threshold\_by\_giant\_component.m} Returns the threshold over
+  which the graph has more than one connected component.
+
+  \subsection*{threshold\_by\_num\_edges.m} Returns a graph thresholded to
+  have a specific number of edges.
+
+  \subsection*{vonneumann\_entropy.m} Returns the VonNeumann quantum entropy
+  of graph \texttt{Brauenstein\ et\ al.} ``Ann. of Combinatorics, 10, no
+  3 (2006), 291-317.''
+
+  \subsection*{write\_brainet.m} Write a graph with coordinates of nodes and
+  membership to Brainet format.
+
+  \subsection*{write\_brainet\_community.m} TODO
+
+  \subsection*{writetoEdgesList.m} TODO
+
+  \subsection*{writetoPAJ\_labels.m}
+
+  \subsection*{writetoPAJ\_labels\_coords.m}
+\end{itemize}
+
+\section{Python algorithms}\label{python-algorithms}
+
+\begin{itemize}[<+->]
+\tightlist
+
+  \subsection*{find\_intersections.py} Find the intersections of edges in a
+  bipartite graph (TODO)
+\end{itemize}
+
+\section{Datasets}\label{datasets}
+
+This repository contains the 638 areas template used by Crossley (2013).
+It consists of two files:
+
+\begin{enumerate}[<+->]
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+
+  \texttt{template.nii} is the NIFTI file describing the template, MNI
+  space
+
+  \texttt{template\_638.txt} is the description of anatomical a
+\end{enumerate}
+
+Additionally the file \texttt{template\_638\_coords\_abbr.txt} is
+organized as follows
+
+\begin{longtable}[]{@{}llllll@{}}
+\toprule
+Node & X & Y & Z & Label & Abbr\tabularnewline
+\midrule
+\endhead
+\bottomrule
+\end{longtable}
+
+and differently from \texttt{template\_638.txt} the NodeID starts from 0
+to 637 (for indexing with Python).

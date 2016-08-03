@@ -4,6 +4,7 @@
   email: angelo.bifone@iit.it
   scholar: xSbIlrcAAAAJ
   linkedin: angelo-bifone-b878a46
+  iit: angelo-bifone
   description: '
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
 
@@ -14,6 +15,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   email: carlo.nicolini@iit.it
   scholar: jnpIfCwAAAAJ
   researchgate: Carlo_Nicolini
+  iit: carlo-nicolini
   description: '
   Carlo Nicolini obtained his MSc. in Physics in 2008 from University of Trento. He then moved to the computer science department, where he has been research assistant in the field of machine learning and optimization.
   Since 2010, Carlo joined IIT as scientific programmer and senior technician, where his role was to develop and implement complex psychophysics experiments as well as data analysis pipelines.
@@ -36,8 +38,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   email: stefano.tambalo@iit.it
   researchgate: Stefano_Tambalo
   scholar: GVNlh3gAAAAJ
-  description: 'One remarkable finding in~\cite{Nicolini2016}, is that brain networks display modules with an heterogeneous size distribution. 
-We implemented this property in our two benchmark networks.'
+  description: '
+   Stefano Tambalo is Junior Technician @ IIT. He holds a degree in IT Engineering and Radiography. He is currently focused on Experimental MR Imaging, Image processing, Nanostructured materials and Optically detected NMR.
+  '
 
 - name: Vladimir Vlasov
   image: /static/img/members/vlasov.jpg
@@ -51,12 +54,21 @@ We implemented this property in our two benchmark networks.'
 - name: Mariagrazia Popeo
   image: /static/img/members/popeo.jpg
   linkedin: mariagrazia-popeo-74010359
+  email: mariagrazia.popeo@iit.it
   researchgate: Mariagrazia_Popeo2
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+  description: '
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  '
 
-- name: Matteo Cafini
-  image: /static/img/members/cafini.png
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+
+- name: Matteo Caffini
+  image: /static/img/members/caffini.png
+  email: matteo.caffini@unitn.it
+  researchgate: Matteo_Caffini
+  linkedin: matteocaffini
+  description: '
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  '
 
 - name: Giulia Scuppa
   image: /static/img/members/scuppa.jpg
@@ -67,4 +79,3 @@ We implemented this property in our two benchmark networks.'
   description: '
   Giulia Scuppa graduated in Pharmaceutical Chemistry and Technology and received her PhD in pharmacology at the University of Camerino. Her doctoral research was mainly focused on unravelling the neurobiological mechanisms underlying drug addiction. She is now working on an in-vivo project to study the impact of chronic alcohol exposure on brain functional connectivity in rodents in order to identify novel therapeutic strategies for the treatment of alcohol dependence. 
   '
-  

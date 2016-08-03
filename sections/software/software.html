@@ -1,0 +1,48 @@
+---
+title: Software
+layout: default
+---
+
+<div id="main">
+    <div id="content" class="container">
+        <header>
+            <h2>Software</h2>
+            <span class="byline">
+             Algorithms and methods for graph-theory of brain networks
+         </span>
+        </header>
+        <ul>
+            {% for code in site.data.software %}
+            <li>
+                <h1>{{ code.name }}</h1>
+                <p>{{ code.description }}</p>
+                <p></p>
+                <div class="row">
+                    <div class="2u">
+                        <p><img class="img-responsive" width="100%" src="{{code.image}}"></p>
+                    </div>
+                    <div class="2u">
+                        <ul>
+                            {% if code.github %}
+                            <li>
+                                Source code: <a href="{{code.github}}" alt="Website"><span class="fa fa-github"></span></a>
+                            </li>
+                            {% endif %}
+                            <!-- <ul> -->
+                                {% for x in code.releases %} {% for y in x %}
+                                <li>{{y[0]}}: {{y[1] | markdownify }}</li>
+                                {% endfor %} {% endfor %}
+                            <!-- </ul> -->
+
+                        </ul>
+                    </div>
+                    <div class="8u">
+                        {{code.fulldescription | markdownify }}
+                        <a href="{{{{code.documentation}}">Documentation</a>
+                    </div>
+                </div>
+            </li>
+            <hr/> {% endfor %}
+        </ul>
+    </div>
+</div>

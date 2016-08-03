@@ -1,11 +1,12 @@
-name: "BrainetLab, IIT@UniTN"
-description: "This is the official web page for BrainetLab."
-
-url: "http://brainetlab.github.io"
+name: BrainetLab
+description: Website of the BrainetLab
+paginate: 10
 
 gems: [jekyll-paginate]
-paginate_path: "news/page:num"
 
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
+
+
+keep_files: [MathJax] 

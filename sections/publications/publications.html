@@ -1,0 +1,71 @@
+---
+layout: default
+title: Publications
+---
+
+<div id="main">
+    <div id="content" class="container">
+        <header>
+            <h2>Publications</h2>
+            <span class="byline">Publications of the Lab
+			</span>
+        </header>
+        <ul>
+            {% for pub in site.data.publications | sort: "date" %}
+            <li>
+                <h1>{{pub.title | markdownify }}
+				</h1> {{pub.authors }} {{pub.journal }}
+				{% if pub.volume %}<strong>{{pub.volume}}</strong>,{% endif %}
+				{% if pub.pages %} {{pub.pages}},{% endif %}
+				({{pub.year }})
+                <p></p>
+                <div class="12u">
+                    <section class="12u">
+                        <p><strong>Abstract</strong></p>
+                        {{pub.abstract | markdownify }}
+                    </section>
+                </div>
+                <p></p>
+                <div class="row">
+                    <section class="5u">
+                        <img class="img-responsive" src="{{pub.image}}" alt="Key Figure" style="width: 100%">
+                        <em>
+							{% if pub.caption %}
+							{{pub.caption}}
+							{% endif %}
+						</em>
+                    </section>
+                    <section class="5u">
+                        <ul>
+                            {% if pub.pmid %}
+                            <li>PubMed ID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{pub.pmid}}" alt="pubmed link: {{pub.pmid}}"> {{pub.pmid}}</a>
+                            </li>
+                            {% if pub.pdf %}
+                            <li> PDF Download:
+                                <a href="{{pub.pdf}}" alt="PDF"><span class="fa fa-download"></span></a>
+                            </li>
+                            {% endif %}
+                            {% else %}
+                            <li> Paper submitted and/or under revision</li>
+                            <li> Preprint download:
+                                <a href="{{pub.preprint}}" alt="PDF"><span class="fa fa-download"></span></a>
+                            </li>
+                            {% endif %}
+                            {% if pub.ris %}
+                            <li>
+                            Reference: <a href="{{pub.ris}}" alt="RIS"><span class="fa fa-download"></span></a>
+                            </li>
+                            {% endif %}
+                            {% if pub.code %}
+                            <li>Code and methods:
+                                <a href="{{pub.code}}" alt="Code"><span class="fa fa-github"></span></a>
+                            </li>
+                            {% endif %}
+                        </ul>
+                    </section>
+                </div>
+            </li>
+            <hr/> {% endfor %}
+        </ul>
+    </div>
+</div>
