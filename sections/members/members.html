@@ -3,3 +3,69 @@ title: Members
 layout: default
 ---
 
+<div id="main">
+    <div id="content" class="container">
+        <header>
+            <h2>Members</h2>
+            <span class="byline">
+				People working at the BrainetLab
+			</span>
+        </header>
+        <ul>
+            {% for person in site.data.members %}
+            <li>
+                <h1>{{ person.name }}</h1>
+                <!-- <p></p> -->
+                <div class="row">
+                    <div class="2u">
+                        <img class="img-circle" width="140" src="{{person.image}}">
+                    </div>
+                    <div class="2u">
+                        <ul>
+                            {% if person.iit %}
+                            <li>
+                                <a href="http://linkedin.com/in/{{person.linkedin}}">IIT:
+				<img class="img" width=16px height=16px src="https://www.iit.it/favicon.ico" class="grayscale"></a>
+                            </li>
+                            {% endif %}
+                            {% if person.scholar %}
+                            <li>
+                                <a href="http://scholar.google.com/citations?user={{person.scholar}}">Scholar Citations</span></a>
+                            </li>
+                            {% endif %}
+
+                            {% if person.email %}
+                            <li>
+                                <script type="text/javascript">
+                                emailE = ('{{person.name | replace: '
+                                    ','.
+                                    ' | downcase }}@' + 'iit.it')
+                                document.write('<a href="mailto:' + emailE + '">' + emailE  '</a>')
+                                </script>
+                            </li>
+                            {% endif %}
+
+                            {% if person.linkedin %}
+                            <li>
+                                LinkedIn:
+                                <a href="http://linkedin.com/in/{{person.linkedin}}"> <span class="fa fa-linkedin"></span></a>
+                            </li>
+                            {% endif %}
+
+                            {% if person.researchgate %}
+                            <li>ResearchGate:
+                                <a href="http://researchgate.com/profile/{{person.researchgate}}"> <img class="img-circle" width=16px height=16px src="http://www.researchgate.net/favicon.ico" class="grayscale"></a>
+                            </li>
+                            {% endif %}
+                        </ul>
+                    </div>
+					<div class="8u">
+                        {{person.description}}
+                </div>
+                </div>
+            </li>
+            <hr/>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
