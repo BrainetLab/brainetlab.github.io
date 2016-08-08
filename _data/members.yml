@@ -28,9 +28,7 @@
   email: cecile.bordier@iit.it
   linkedin: cécile-bordier-4103108b?trk=prof-samename-picture
   researchgate: Cecile_Bordier
-  description: '
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  '
+  description: '  '
 
 - name: Stefano Tambalo
   image: /static/img/members/tambalo.jpg
@@ -47,18 +45,14 @@
   position: Post-Doc
   email: vladimir.vlasov@iit.it
   linkedin: vladimir-vlasov-8051bb3b
-  description: '
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  '
+  description: '  '
 
 - name: Mariagrazia Popeo
   image: /static/img/members/popeo.jpg
   linkedin: mariagrazia-popeo-74010359
   email: mariagrazia.popeo@iit.it
   researchgate: Mariagrazia_Popeo2
-  description: '
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  '
+  description: '  '
 
 
 - name: Matteo Caffini
@@ -66,9 +60,7 @@
   email: matteo.caffini@unitn.it
   researchgate: Matteo_Caffini
   linkedin: matteocaffini
-  description: '
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  '
+  description: '  '
 
 - name: Giulia Scuppa
   image: /static/img/members/scuppa.jpg
