@@ -1,0 +1,25 @@
+---
+layout: default
+title: Blog
+---
+
+<div id="main">
+    <div id="content" class="container">
+        <header>
+            <h2>Blog</h2>
+            <span class="byline">News and ideas from the members of the
+			</span>
+        </header>
+        <ul>
+            {% for post in site.posts | sort: "date" %}
+                    <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            {{ post.excerpt }}
+            </li>
+            <hr/> {% endfor %}
+        </ul>
+    </div>
+</div>
