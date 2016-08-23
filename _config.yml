@@ -9,4 +9,4 @@ kramdown:
   syntax_highlighter: rouge
 
 
-keep_files: [MathJax] 
+keep_files: [MathJax]
