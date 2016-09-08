@@ -5,8 +5,7 @@
   scholar: xSbIlrcAAAAJ
   linkedin: angelo-bifone-b878a46
   iit: angelo-bifone
-  description: '
-  After completing his undergraduate studies in Physics at the University of Rome, he earned a PhD in Physics from the Scuola Normale Superiore in Pisa and a Master in Business Administration from Alma Graduate School, University of Bologna. His career includes stints in academia and in industry R&D. He worked as a PostDoc at the University of Berkeley (California) and at the University of Leiden (The Netherlands). From 1996 to 2001 he was  a Lecturer at the Institute of Cancer Research (UK), where he obtained the status of Teacher of the University of London. For 9 years he headed the Neuroimaging Department of the Medicines Research Center of Glaxo Smith-Kline, a large research-based pharmaceutical company, in Verona, Italy. In 2010 he joined the Istituto Italiano di Tecnologia, where he took roles of increasing responsibility.'
+  description: 'Angelo Bifone received a University degree from the University of Rome (Italy) in 1990, and a doctoral degree in Physics from the Scuola Normale Superiore in Pisa (Italy) in 1995. He conducted postdoctoral research in Berkeley (CA, USA) and Leiden (The Netherlands). From 1996 until 2001 he held the position of Lecturer in Magnetic Resonance Physics at the Institute of Cancer research of the University of London (UK). From 2001 until 2010 he was the director of the Neuroimaging Department of the Glaxo-Smith Kline Medicines Research Center in Verona (Italy). In 2010 he joined the Istituto Italiano di Tecnologia as a Tenured Senior Scientist and Director of the Center for Neuroscience and Cognitive Systems. Angelo Bifone expertise is in the area of functional Magnetic Resonance Imaging as applied to the study of brain function and disfunction. His group has pioneered pharmacological MRI methods to study the effects of drug intervention on brain functional activity and connectivity. His current research interests include the study of brain connectivity using graph representation and complex network analysis. Angelo Bifone published ca. 100 peer-reviewed papers in top-tier international journals, including Neuron, Nature Neuroscience and PNAS; he was awarded the Sapio Prize for MRI in 2004.'
 
 
 - name: Carlo Nicolini
@@ -53,7 +52,13 @@ From a computer science background, my main research interest since my PhD (in 2
   linkedin: mariagrazia-popeo-74010359
   email: mariagrazia.popeo@iit.it
   researchgate: Mariagrazia_Popeo2
-  description: '  '
+  description: 'Mariagrazia Popeo gained her MSc. in Physics from the 
+  University of Bologna (Italy). She is currently a PhD Student in Cognitive 
+  Neuroscience (IIT affiliation) at the CiMec (Center for Mind and Brain science, University of Trento, Italy).
+  Her PhD project aims to study functional connectivity in newborn infants with graph theoretical analysis.
+  She will use functional near-infrared spectroscopy (fNIRS), a non-invasive method for the study of brain function, 
+  and she will develop a generative model to elucidate the principles that govern the evolution of 
+  functional connectivity networks during early life.'
 
 
 - name: Matteo Caffini
