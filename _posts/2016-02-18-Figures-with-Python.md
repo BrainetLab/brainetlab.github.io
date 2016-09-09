@@ -1,13 +1,8 @@
 ---
 title: "Making Publication-quality Charts using Python and Matplotlib"
-author: Ben Barad
 layout: post
 date: 2016-05-16
 ---
-
-_I originally wrote this article for my [personal website](http://benjaminbarad.com), but I think it is relevant here, so with James's blessing I am crossposting it._
-
-<img class="img-responsive center-block" src="/static/img/matplotlib/test_no_title.png" alt="Before updating the matplotlibrc" width="640">
 
 [Python](https://www.python.org/) is currently my programming language of choice. It is the programming language taught by my graduate program to incoming first years, and in my experience it is the most common scripting language used by the scientists around me. The Fraser lab uses python almost exclusively for programming.
 
@@ -23,27 +18,27 @@ I ultimately (mostly) solved this problem by creating a matplotlibrc file which 
 
 The best way for me to show the problems with the defaults in matplotlib is to show the output of a small snippet of code:
 
-{% highlight python %}
-import matplotlib
-import matplotlib.pyplot as plt
+    {% highlight python %}
+    import matplotlib
+    import matplotlib.pyplot as plt
 
-data = [220,14.2,150,400,420]
-error = [10, 1, 20, 60, 10]
-x = [i + .5 for i in range(5)]
+    data = [220,14.2,150,400,420]
+    error = [10, 1, 20, 60, 10]
+    x = [i + .5 for i in range(5)]
 
-fig, ax = plt.subplots()
-bar = ax.bar(x, data, 0.8, align="center", yerr=error)
-plot = ax.plot(x, data)
-ax.set_xticks(x)
-ax.set_xticklabels(('wt', 'N23PP', 'N23PP/PEKN', 'PEKN', 'N23PP/PEKN/L28F'))
-ax.set_title(r"Everything in the document can use m$\alpha$th language", y=1.05)
-ax.set_ylabel(r"Rate (s$^{-1}$)", labelpad=10)
-ax.set_xlabel("Mutant",labelpad=10)
-ax.yaxis.set_ticks_position('left')
-ax.xaxis.set_ticks_position('bottom')
-plt.savefig('test.png')
-plt.show()
-{% endhighlight %}
+    fig, ax = plt.subplots()
+    bar = ax.bar(x, data, 0.8, align="center", yerr=error)
+    plot = ax.plot(x, data)
+    ax.set_xticks(x)
+    ax.set_xticklabels(('wt', 'N23PP', 'N23PP/PEKN', 'PEKN', 'N23PP/PEKN/L28F'))
+    ax.set_title(r"Everything in the document can use m$\alpha$th language", y=1.05)
+    ax.set_ylabel(r"Rate (s$^{-1}$)", labelpad=10)
+    ax.set_xlabel("Mutant",labelpad=10)
+    ax.yaxis.set_ticks_position('left')
+    ax.xaxis.set_ticks_position('bottom')
+    plt.savefig('test.png')
+    plt.show()
+    {% endhighlight %}
 
 In this code, I start with two lists, one of y values and one of error values, and proceed to make a named bar chart.
 I also throw a line graph on top for illustrative purposes and add some axis labels and a title. 
@@ -61,23 +56,23 @@ Further, the special formatting (such as use of greek letters and superscripts) 
 
 In order to highlight the ugliness of the default color cycle in python, I have attached a second, simpler piece of code and its output:
 
-{% highlight python %}
-import numpy as np
-import matplotlib
-import matplotlib.pyplot as plt
+    {% highlight python %}
+    import numpy as np
+    import matplotlib
+    import matplotlib.pyplot as plt
 
-x=np.arange(0,5,.01)
-fig, ax = plt.subplots()
-for i in range(10):
-    y = [np.sin(datum**2+i/10.0) for datum in x]
-    ax.plot(x, y)
-ax.yaxis.set_ticks_position('left')
-ax.xaxis.set_ticks_position('bottom')
-ax.set_title("Color Cycle, demonstrated", y=1.05)
-ax.set_ylabel(r"$sin(x^{2}+\lambda{})$", labelpad=5)
-ax.set_xlabel(r"x", labelpad=5)
-plt.savefig('test2.png')
-{% endhighlight %}
+    x=np.arange(0,5,.01)
+    fig, ax = plt.subplots()
+    for i in range(10):
+        y = [np.sin(datum**2+i/10.0) for datum in x]
+        ax.plot(x, y)
+    ax.yaxis.set_ticks_position('left')
+    ax.xaxis.set_ticks_position('bottom')
+    ax.set_title("Color Cycle, demonstrated", y=1.05)
+    ax.set_ylabel(r"$sin(x^{2}+\lambda{})$", labelpad=5)
+    ax.set_xlabel(r"x", labelpad=5)
+    plt.savefig('test2.png')
+    {% endhighlight %}
 
 This code draws a lot of lines which become closer and closer to each other.
 
