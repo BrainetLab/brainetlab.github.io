@@ -1,5 +1,5 @@
 ---
-title: "BrainetLab at PRNI 2016"
+title: BrainetLab at PRNI 2016
 author: Carlo
 layout: post
 date: 2016-05-20

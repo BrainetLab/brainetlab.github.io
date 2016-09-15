@@ -40,11 +40,11 @@ title: Publications
                             {% if pub.pmid %}
                             <li>PubMed ID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{pub.pmid}}" alt="pubmed link: {{pub.pmid}}"> {{pub.pmid}}</a>
                             </li>
+                            {% endif %}
                             {% if pub.pdf %}
                             <li> PDF Download:
                                 <a href="{{pub.pdf}}" alt="PDF"><span class="fa fa-download"></span></a>
                             </li>
-                            {% endif %}
                             {% else %}
                             <li> Paper submitted and/or under revision</li>
                             <li> Preprint download:
@@ -58,7 +58,7 @@ title: Publications
                             {% endif %}
                             {% if pub.code %}
                             <li>Code and methods:
-                                <a href="{{pub.code}}" alt="Code"><span class="fa fa-github"></span></a>
+                                <a href="{{ pub.code }}" alt="Code"><span class="fa fa-github"></span></a>
                             </li>
                             {% endif %}
                         </ul>

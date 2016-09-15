@@ -1,5 +1,5 @@
 ---
-title: "Making Publication-quality Charts using Python and Matplotlib"
+title: Making Publication-quality Charts using Python and Matplotlib
 layout: post
 date: 2016-05-16
 ---

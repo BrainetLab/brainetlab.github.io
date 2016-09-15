@@ -15,3 +15,12 @@
   posterpic: /static/posters/hbm2016_bordier.png
   posterpdf: /static/posters/hbm2016_bordier.pdf
   website: 'https://www.humanbrainmapping.org/i4a/ams/conference/conference.cfm?conferenceID=102'
+
+- name: 'Conference Complex Systems'
+  title: 'Community detection in weighted brain connectivity networks beyond the resolution limit'
+  location: 'Amsterdam, Beurs Van Berlage'
+  date: 'September, 19-22, 2016'
+  paper: http://arxiv.org/abs/1609.04316
+  posterpic: /static/posters/prni2016_nicolini.png
+  posterpdf: /static/posters/prni2016_nicolini.pdf
+  website: 'http://ccs2016.org/'
