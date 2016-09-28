@@ -9,4 +9,4 @@ BrainNet Lab will attend the Conference for Complex Systems to be held in Amster
 
 ### Community detection in brain functional networks beyond the resolution limit
 
-<a link="www.ccs2016.org">CCS2016</a>
+<a href="http://www.ccs2016.org">CCS2016</a>

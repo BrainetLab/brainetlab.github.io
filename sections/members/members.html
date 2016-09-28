@@ -13,7 +13,7 @@ layout: default
         <ul>
             {% for person in site.data.members %}
             <li>
-                <h1>{{ person.name }}</h1>
+                <h1>{{ person.name }}</h1><p>
                 <!-- <p></p> -->
                 <div class="row">
                     <div class="2u">
@@ -23,7 +23,7 @@ layout: default
                         <ul>
                             {% if person.iit %}
                             <li>
-                                <a href="http://linkedin.com/in/{{person.linkedin}}">IIT:
+                                <a href="http://www.iit.it/people/{{person.iit}}">IIT:
                 <img class="img" width=16px height=16px src="https://www.iit.it/favicon.ico" class="grayscale"></a>
                             </li>
                             {% endif %}
