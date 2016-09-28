@@ -27,6 +27,7 @@
   image: /static/img/members/bordier.png
   position: Post Doc
   email: cecile.bordier@iit.it
+  iit: cecile-bordier
   linkedin: cécile-bordier-4103108b?trk=prof-samename-picture
   researchgate: Cecile_Bordier
   description: '
@@ -36,6 +37,7 @@ From a computer science background, her main research interest since her PhD (in
   image: /static/img/members/tambalo.jpg
   position: Senior Technician
   email: stefano.tambalo@iit.it
+  iit: stefano-tambalo
   researchgate: Stefano_Tambalo
   scholar: GVNlh3gAAAAJ
   description: '
@@ -45,6 +47,7 @@ From a computer science background, her main research interest since her PhD (in
 - name: Vladimir Vlasov
   image: /static/img/members/vlasov.jpg
   position: Post-Doc
+  iit: vladimir-vlasov
   email: vladimir.vlasov@iit.it
   linkedin: vladimir-vlasov-8051bb3b
   description: 'Vladimir Vlasov obtained a degree in Biophysics from Lomonosov Moscow State University (Russia) in 2012. He received his PhD in Physics from Potsdam University (Germany) in 2015. During his doctoral study his main research was describing nontrivial collective dynamics in oscillator populations coupled via mean fields in terms of global variables. Now he is working on the applications of dynamical models to the real brain networks.'
@@ -53,6 +56,7 @@ From a computer science background, her main research interest since her PhD (in
   image: /static/img/members/popeo.jpg
   linkedin: mariagrazia-popeo-74010359
   email: mariagrazia.popeo@iit.it
+  iit: mariagrazia-popeo
   researchgate: Mariagrazia_Popeo2
   description: 'Mariagrazia Popeo gained her MSc. in Physics from the 
   University of Bologna (Italy). She is currently a PhD Student in Cognitive 
@@ -75,6 +79,7 @@ From a computer science background, her main research interest since her PhD (in
 - name: Giulia Scuppa
   image: /static/img/members/scuppa.jpg
   position: Post-Doc
+  iit: giulia-scuppa
   email: giulia.scuppa@iit.it
   linkedin: giulia-scuppa-12368389
   researchgate: Giulia_Scuppa
