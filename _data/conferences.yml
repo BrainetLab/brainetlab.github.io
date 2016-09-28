@@ -26,7 +26,14 @@
   website: 'http://ccs2016.org/'
 
 - name: 'Resting state'
+  title: 'Fifth biennial conference on resting state and brain connectivity'
   location: 'Vienna, Austria'
   date: 'September 19-22, 2016'
   description: 'x'
   posterpdf: '/static/posters/prni2016_nicolini.pdf'
+
+- name: 'ESMRMB2016'
+  title: 'European Society for Magnetic Resonance Imaging in Biology and Medicine'
+  location: 'Vienna, Austria'
+  date: 'September 29 - October 1, 2016'
+  description: 'x'

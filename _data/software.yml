@@ -16,8 +16,8 @@
   PACO implements agglomerative optimization methods as well as simulated annealing, and its written in a modular fashion so optimization of cost functions of various type can be carried on in a series of subsequent steps. We suggest to download and use PACO instead of FAGSO as it is faster and supports a wider variety of quality functions, not only Surprise but also Asymptotical Surprise.
   Additionally it contains a Matlab wrapper for Infomap community detection. 
   '
-  gitlab: https://gitlab.iit.it/carlonicolini/paco
-  downloadform: http://forms.iit.it/view.php?id=68447
+  gitlab: 'https://gitlab.iit.it/carlonicolini/paco'
+  downloadform: 'http://forms.iit.it/view.php?id=68447'
   
 
 - name: CommunityAlg
