@@ -28,6 +28,11 @@ layout: default
                                 Source code: <a href="{{code.github}}" alt="Website"><span class="fa fa-github"></span></a>
                             </li>
                             {% endif %}
+                            {% if code.gitlab %}
+                            <li>
+                                Source code: <a href="{{code.gitlab}}" alt="Website"><span class="fa fa-gitlab" aria-hidden="true"></span></a>
+                            </li>
+                            {% endif %}
                             <!-- <ul> -->
                                 {% for x in code.releases %} {% for y in x %}
                                 <li>{{y[0]}}: {{y[1] | markdownify }}</li>

@@ -14,19 +14,13 @@
 - name: PACO
   image: /static/img/software/paco.png
   description: Partitioning Cost Optimization
-  github: https://github.com/carlonicolini/paco
   fulldescription: '
   PACO is the second iteration of the FAGSO algorithm, written from scratch with better data structures implementation as well as the full support of the igraph library.
   PACO implements agglomerative optimization methods as well as simulated annealing, and its written in a modular fashion so optimization of cost funcitons of various type can be carried on in a series of subsequent steps.
   '
-  documentation: 'static/doc/paco.pdf'
-  releases:
-    [
-    MatlabLinux: '[paco_mx.mexa64](https://github.com/CarloNicolini/paco/releases/download/0.1.0/paco_mx.mexa64)',
-    OctaveLinux: '[paco_mx.mexa64](https://github.com/CarloNicolini/paco/releases/download/0.1.0/paco_mx.mexa64)'
-    ]
+  gitlab: https://gitlab.iit.it/carlonicolini/paco
+  downloadform: x
   
-
 
 - name: CommunityAlg
   image: /static/img/software/community_detection.jpg
