@@ -29,7 +29,7 @@ layout: default
                             {% endif %}
                             {% if person.scholar %}
                             <li>
-                                <a href="http://scholar.google.com/citations?user={{person.scholar}}">Scholar Citations</span></a>
+                                Scholar Citations: <a href="http://scholar.google.com/citations?user={{person.scholar}}"><span class="fa fa-graduation-cap"></span> </a>
                             </li>
                             {% endif %}
 
@@ -55,7 +55,7 @@ layout: default
                             {% endif %}
                             {% if person.researchgate %}
                             <li>ResearchGate:
-                                <a href="http://researchgate.com/profile/{{person.researchgate}}"> <img class="img-circle" width=16px height=16px src="http://www.researchgate.net/favicon.ico" class="grayscale"></a>
+                                <a href="http://researchgate.com/profile/{{person.researchgate}}"> <img class="img-circle" width=16px height=16px src="/assets/researchgate.png"></a>
                             </li>
                             {% endif %}
                         </ul>

@@ -11,7 +11,7 @@ title: Publications
 			</span>
         </header>
         <ul>
-            {% for pub in site.data.publications | sort: "date" %}
+            {% for pub in site.data.publications  %}
             <li>
                 <h1>{{pub.title | markdownify }}
 				</h1> {{pub.authors }} {{pub.journal }}

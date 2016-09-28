@@ -41,7 +41,7 @@ layout: default
     </div>
     <div class="container">
         <ul>
-            {% for post in site.posts | sort: "date" %}
+            {% for post in site.posts %}
             <li>
                 <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
                 <h2>

@@ -7,13 +7,13 @@ title: Blog
     <div id="content" class="container">
         <header>
             <h2>Blog</h2>
-            <span class="byline">News and ideas from the members of the
-			</span>
+            <span class="byline">News and ideas from the members of the lab
+            </span>
         </header>
         <ul>
-            {% for post in site.posts | sort: "date" %}
+            {% for post in site.posts %}
                     <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <span class="post-meta">{{ post.date | date_to_string }}</span>
             <h2>
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>

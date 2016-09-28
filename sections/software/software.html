@@ -25,18 +25,23 @@ layout: default
                         <ul>
                             {% if code.github %}
                             <li>
-                                Source code: <a href="{{code.github}}" alt="Website"><span class="fa fa-github"></span></a>
+                                <a href="{{code.github}}" alt="Website">Source code: <span class="fa fa-github"></span>  </a>
                             </li>
                             {% endif %}
                             {% if code.gitlab %}
                             <li>
-                                Source code: <a href="{{code.gitlab}}" alt="Website"><span class="fa fa-gitlab" aria-hidden="true"></span></a>
+                                <a href="{{code.gitlab}}" alt="Website">Source code: <span class="fa fa-gitlab"></span>  </a>
+                            </li>
+                            {% endif %}
+                            {% if code.downloadform %}
+                            <li>
+                                <a href="{{code.downloadform}}" alt="Download">Download form: <span class="fa fa-download"></span></a>
                             </li>
                             {% endif %}
                             <!-- <ul> -->
-                                {% for x in code.releases %} {% for y in x %}
-                                <li>{{y[0]}}: {{y[1] | markdownify }}</li>
-                                {% endfor %} {% endfor %}
+                            {% if code.releases %}
+                            <a href="{{code.releases}}" alt="Download">Releases: <span class="fa fa-download"></span></a>
+                            {% endif %}
                             <!-- </ul> -->
 
                         </ul>

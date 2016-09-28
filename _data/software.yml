@@ -1,14 +1,11 @@
 - name: FAGSO
   image: /static/img/software/fagso.png
   description: Fast Agglomerative Surprise Optimization
-  releases: [
-    MatlabLinux: '[fagso_mx.mexa64](https://github.com/CarloNicolini/fagso/releases/download/0.1.0/fagso_mx.mexa64)',
-    OctaveLinux: '[fagso_mx.mex](https://github.com/CarloNicolini/fagso/releases/download/0.1.0/fagso_mx.mex)'
-  ]
+  releases: 'https://github.com/CarloNicolini/fagso/releases/'
   documentation: 'static/doc/fagso.pdf'
   github: https://github.com/carlonicolini/fagso
   fulldescription: '
-  FAGSO is an agglomerative Surprise Optimization algorithm written in C++ with bindings as MEX MATLAB and Octave file as well as Python library. It comes as the first proof of concept implementation of the idea, and accompanies the paper *Modular structure of brain functional connectivity: breaking the resolution limit by Surprise*.
+  FAGSO is an agglomerative Surprise Optimization algorithm written in C++ with bindings as MEX MATLAB and Octave file as well as Python library. It comes as the first proof of concept implementation of the idea, and accompanies the paper *Modular structure of brain functional connectivity: breaking the resolution limit by Surprise*. All the documentation on how to compile and use FAGSO is indicated on the github webpage.
   '
 
 - name: PACO
@@ -16,10 +13,11 @@
   description: Partitioning Cost Optimization
   fulldescription: '
   PACO is the second iteration of the FAGSO algorithm, written from scratch with better data structures implementation as well as the full support of the igraph library.
-  PACO implements agglomerative optimization methods as well as simulated annealing, and its written in a modular fashion so optimization of cost funcitons of various type can be carried on in a series of subsequent steps.
+  PACO implements agglomerative optimization methods as well as simulated annealing, and its written in a modular fashion so optimization of cost functions of various type can be carried on in a series of subsequent steps. We suggest to download and use PACO instead of FAGSO as it is faster and supports a wider variety of quality functions, not only Surprise but also Asymptotical Surprise.
+  Additionally it contains a Matlab wrapper for Infomap community detection. 
   '
   gitlab: https://gitlab.iit.it/carlonicolini/paco
-  downloadform: x
+  downloadform: http://forms.iit.it/view.php?id=68447
   
 
 - name: CommunityAlg
