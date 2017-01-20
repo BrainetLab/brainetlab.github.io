@@ -37,6 +37,7 @@
 
 - name: InfomapMex
   image: /static/img/software/infomapmx.png
+      /static/infomapmx/infomapmx.png
   description: A Matlab wrapper around the latest available implementation of Rosvall' and Bergstrom's Infomap code available at https://github.com/mapequation/infomap
   github: https://github.com/carlonicolini/infomapmex
   fulldescription: ''
