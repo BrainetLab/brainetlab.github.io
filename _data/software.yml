@@ -35,16 +35,16 @@
   fulldescription: LFR is an implementations of the planted partition model where the degrees and the community size is modeled after powerlaws with specific exponents. This implementation is a Matlab wrapper around the LFR Weighted with non overlapping communities that is available on the website of Santo Fortunato.
   documentation: '/static/doc/lfrwmx.pdf'
 
-- name: MultilouvainMX
-  image: /static/img/software/multilouvain.png
-  description: 'Multilouvain is a Matlab wrapper around the Traag louvain python package.'
-  fulldescription: 'Multilouvain comes a C++ library and a Matlab mex wrapper that is able to optimize different quality functions for community detection on graphs. Multilouvain features Asymptotical Surprise [Traag2015], Significance [Traag2013], Reichardt and Bornholdt, CPM and Newmans\' modularity in a single unified framework. All the credits for the C++ code are to <a href="http://www.traag.net">Vincent Traag</a>. This wrapper modified some functions to make faster calls to methods and the code is not completely equal, though.'
-  github: 'https://github.com/carlonicolini/multilouvain'
-  documentation: '/static/doc/multilouvain.pdf'
-
 - name: InfomapMex
   image: /static/img/software/infomapmx.png
   description: 'A Matlab wrapper around the latest available implementation of Rosvall and Bergstroms Infomap code available on <a href="http://github.com/mapequation/infomap">github</a>.'
   fulldescription: 'Infomap optimizes the map equation, which exploits the information-theoretic duality between the problem of compressing data, and the problem of detecting and extracting significant patterns or structures within those data. Specifically, the map equation is a flow-based method and operates on dynamics on the network.'
   github: https://github.com/carlonicolini/infomapmex
   documentation: '/static/doc/infomapmex.pdf'
+
+- name: MultilouvainMX
+  image: /static/img/software/multilouvain.png
+  description: 'A Matlab wrapper around the Traag louvain python package.'
+  fulldescription: 'Multilouvain comes a C++ library and a Matlab mex wrapper that is able to optimize different quality functions for community detection on graphs. Multilouvain features Asymptotical Surprise, Significance, Reichardt and Bornholdt, CPM and Newman modularity in a single unified framework. All the credits for the C++ code are to <a href="http://www.traag.net">Vincent Traag</a>. This wrapper modified some functions to make faster calls to methods and the code is not completely equal, though.'
+  github: 'https://github.com/carlonicolini/multilouvain'
+  documentation: '/static/doc/multilouvain.pdf'
