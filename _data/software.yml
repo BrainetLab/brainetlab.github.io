@@ -34,3 +34,11 @@
   github: https://github.com/carlonicolini/lfrwmx
   fulldescription: LFR is an implementations of the planted partition model where the degrees and the community size is modeled after powerlaws with specific exponents. This implementation is a Matlab wrapper around the LFR Weighted with non overlapping communities that is available on the website of Santo Fortunato.
   documentation: 'static/doc/lfrwmx.pdf'
+
+- name: InfomapMex
+  image: /static/img/software/infomapmx.png
+  description: A Matlab wrapper around the latest available implementation of Rosvall' and Bergstrom's Infomap code available at https://github.com/mapequation/infomap
+  github: https://github.com/carlonicolini/infomapmex
+  fulldescription:
+  documentation: 'static/doc/infomapmex.pdf'
+
