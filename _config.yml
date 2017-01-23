@@ -7,6 +7,6 @@ gems: [jekyll-paginate]
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
-
+google-analytics: UA-90734637-1
 
 keep_files: [MathJax]
